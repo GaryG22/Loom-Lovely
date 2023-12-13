@@ -126,8 +126,8 @@ position: absolute;
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
+  font-family: 'Julius Sans One', sans-serif;
 }
-
 .logo {
   position: absolute;
   top: 30px;
@@ -137,7 +137,53 @@ position: absolute;
   font-family: 'Kurale', serif;
   position: fixed;
 }
-
+.input-container{
+  position: relative;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+.input-text{
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: beige;
+  font-family: 'Kurale', serif;
+  font-size: 20px;
+}
+.cart-container{
+  position: absolute;
+  width: 60px;
+  margin-left: 600px;
+  margin-top: -60px;
+  cursor: pointer;
+}
+.cart-icon{
+ position: absolute;
+ position: fixed;
+ width: 60px;
+ margin-left: 0px;
+ margin-top: 0px;
+}
+.cart-num{
+padding-left: 40px;
+font-size: 14px;
+font-family: 'Kurale', serif;
+}
+.login{
+  position: absolute;
+  position: fixed;
+  margin-left: 450px;
+  margin-top: -60px;
+  cursor: pointer;
+}
+.login-icon{
+  width: 60px;
+}
+.login-title{
+  font-size: 18px;
+  margin-top: -48px;
+  margin-left: 55px;
+}
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
@@ -158,9 +204,6 @@ position: absolute;
   display: none;
 }
 
-.nav-container input[type="checkbox"]:checked ~ .home-container .home-title {
-  display: none;
-}
 .home-container{
   width: 100%;
   height: 600px;
@@ -181,7 +224,7 @@ position: absolute;
   font-family: 'Julius Sans One', sans-serif;
   position: fixed;
 }
-.mountians{
+.clouds{
   margin-top: -210px;
   position: absolute;
 }
@@ -191,4 +234,70 @@ position: absolute;
   height: 600px;
   background-color: #ffffff;
   position: relative;
+}
+
+.products-title{
+  font-family: 'Kurale', serif;
+  -webkit-text-fill-color: #ddb7ab;
+  padding-top: 80px;
+  font-size: 50px;
+  padding-left: 350px;
+}
+.product1{
+  display: inline-block;
+  width: 250px;
+  height: 350px;
+  background-color: #ddb7ab;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.product2{
+  display: inline-block;
+  width: 250px;
+  height: 350px;
+  background-color: #ddb7ab;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.product3{
+  display: inline-block;
+  width: 250px;
+  height: 350px;
+  background-color: #ddb7ab;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.bag-title{
+  font-family: 'Kurale', serif;
+  padding-left: 20px;
+}
+.bag-description{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 10px;
+  padding-left: 20px;
+}
+.stars{
+  position: absolute;
+  margin-left: 90px;
+  width: 100px;
+  margin-top: -25px;
+}
+.reviews{
+  margin-top: 10px;
+  padding-left: 60px;
+  font-family: 'Kurale', serif;
+}
+.price{
+  padding-top: 20px;
+  font-size: 28px;
+  padding-left: 80px;
+  font-family: 'Kurale', serif;
+}
+.addToCart{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 50px;
+  font-family: 'Kurale', serif;
+  cursor: pointer;
 }

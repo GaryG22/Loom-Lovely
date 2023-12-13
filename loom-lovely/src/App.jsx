@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from "./Navbar"
 import Home from "./Home"
-import Section1 from "./Home2"
+import Products from "./Products"
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Section1 />
+      <Products/>
     </>
   )
 }
