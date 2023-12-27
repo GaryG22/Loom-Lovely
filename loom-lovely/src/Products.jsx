@@ -8,7 +8,7 @@ function Products(){
             <img className = "clouds" src = "https://i.postimg.cc/Y0BXyncm/cloudssssss-Photo-Room.png"/>
             <h1 className = "products-title">The Beautiful Cloud Bag </h1>
             <div className = "product1">
-                <img className = "img1" src = "" />
+                <img className = "img1" src = "https://i.postimg.cc/ncL2FbFY/IMG-9671-Photo-Room-1.png" />
                 <h1 className = "bag-title">The Rain Cloud</h1>
                 <p className = "bag-description">This dummy text for the bag description which goes under the title.</p>
                 <h4 className = "reviews">(55)</h4>
