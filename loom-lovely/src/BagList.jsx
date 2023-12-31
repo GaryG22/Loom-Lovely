@@ -3,13 +3,17 @@ import { useState } from "react";
 const BagList = [
 {
     id: 1,
-    name: "Rain Cloud Bag"
+    name: "Chunky Cloud Bag",
+    img: "https://i.postimg.cc/g0Lhjn9w/IMG-9671-Photo-Room.png",
+
 }, {
     id: 2,
-    name: "Dummy Bag 1"
+    name: "Fluffy Cloud Bag",
+    img: "https://i.postimg.cc/HLrwM6Mk/IMG-9707-Photo-Room.png",
 }, {
     id: 3,
-    name: "Dummy Bag 2"
+    name: "Mini Fluffy Cloud Bag",
+    img: "https://i.postimg.cc/W1G3HgPw/IMG-9715-Photo-Room-2.png",
 }
 ] 
 

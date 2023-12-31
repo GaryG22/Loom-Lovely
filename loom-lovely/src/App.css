@@ -132,7 +132,7 @@ position: absolute;
   position: absolute;
   top: 30px;
   right: 525px;
-  font-size: 1.7rem;
+  font-size: 2.0rem;
   color: #000000;
   font-family: 'Kurale', serif;
   position: fixed;
@@ -208,18 +208,22 @@ font-family: 'Kurale', serif;
   width: 100%;
   height: 600px;
   background-color: rgb(205, 205, 144);
+  background-image: url(https://i.postimg.cc/GhCMvnzg/IMG-9671-Photo-Room-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .home-title{
-  font-size: 40px;
+  font-size: 50px;
   padding-top: 120px;
-  padding-left: 80px;
+  padding-left: 100px;
   font-family: 'Kurale', serif;
   position: fixed;
 }
 .home-p{
-  padding-top: 190px;
-  font-size: 16px;
-  padding-left: 80px;
+  padding-top: 200px;
+  font-size: 18px;
+  padding-left: 100px;
   width: 500px;
   font-family: 'Julius Sans One', sans-serif;
   position: fixed;
@@ -229,86 +233,143 @@ font-family: 'Kurale', serif;
   position: absolute;
 }
 .section1{
-  margin-top: -100px;
+  margin-top: -60px;
   width: auto;
-  height: 600px;
-  background-color: #ffffff;
+  height: 700px;
+  background-image: linear-gradient(white,#f7f7f7, #f7f7f7, rgb(218, 218, 218));
   position: relative;
 }
 
 .products-title{
   font-family: 'Kurale', serif;
   -webkit-text-fill-color: #ddb7ab;
-  padding-top: 80px;
+  padding-top: 50px;
   font-size: 50px;
-  padding-left: 350px;
+  padding-left: 360px;
+  padding-bottom: 50px;
 }
 .product1{
   display: inline-block;
-  width: 250px;
-  height: 350px;
-  margin-top: 50px;
-  margin-left: 100px;
+  width: 350px;
+  height: 500px;
+  margin-top: -100px;
+  margin-left: 60px;
+  margin-right: -50px;
 }
 .product2{
   display: inline-block;
-  width: 250px;
-  height: 350px;
-  margin-top: 50px;
-  margin-left: 150px;
+  width: 350px;
+  height: 500px;
+  margin-top: -50px;
+  margin-left: 110px;
+  margin-right: -50px;
 }
 .product3{
   display: inline-block;
-  width: 250px;
-  height: 350px;
-  margin-top: 50px;
-  margin-left: 150px;
+  width: 350px;
+  height:500px;
+  margin-top: -20px;
+  margin-left: 120px;
 }
 .bag-title{
+  font-size: 22px;
   font-family: 'Kurale', serif;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-top: 150px;
 }
 .bag-description{
   font-family: 'Julius Sans One', sans-serif;
   font-size: 10px;
-  padding-left: 20px;
+  padding-left: 30px;
+  width: 200px;
 }
 .stars{
   position: absolute;
-  margin-left: 90px;
+  margin-left: 80px;
   width: 100px;
   margin-top: -25px;
 }
 .reviews{
   margin-top: 10px;
-  padding-left: 60px;
+  padding-left: 50px;
   font-family: 'Kurale', serif;
 }
 .price{
   padding-top: 05px;
   font-size: 28px;
-  padding-left: 80px;
+  padding-left: 70px;
   font-family: 'Kurale', serif;
 }
 .addToCart{
   width: 150px;
   height: 40px;
   border-radius: 20px;
-  margin-left: 50px;
+  margin-left: 40px;
   font-family: 'Kurale', serif;
   cursor: pointer;
   margin-top: 05px;
 }
 .bagImg{
   position: fixed;
-  margin-left: 650px;
-  width: 450px;
-  margin-top: -50px;
+  margin-left: 770px;
+  width: 500px;
+  margin-top: -130px;
+  rotate: -05deg;
 }
 .img1{
   position: absolute;
-  width: 200px;
-  margin-top: -60px;
-  margin-left: 30px;
+  width: 400px;
+  margin-left: -40px;
+  border-radius: 25px;
+  margin-top: -20px;
+  transition: opacity .5s;
+}
+.img3{
+  position: absolute;
+  width: 400px;
+  margin-left: -35px;
+  border-radius: 25px;
+  margin-top: -20px;
+  transition: opacity .5s;
+}
+.img4{
+  position: absolute;
+  width: 400px;
+  margin-left: -40px;
+  border-radius: 25px;
+  margin-top: -20px;
+  transition: opacity .5s;
+}
+.img2{
+  width: 150px;
+  margin-top: 100px;
+  margin-left: 45px;
+  margin-bottom: -140px;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 1;
+}
+.product1:hover .img1{
+  opacity: 0;
+}
+.product2:hover .img3{
+  opacity: 0;
+}
+.product3:hover .img4{
+  opacity: 0;
+}
+.product1:hover .bag-info{
+  opacity: 1;
+}
+.product2:hover .bag-info{
+  opacity: 1;
+}
+.product3:hover .bag-info{
+  opacity: 1;
+}
+.bag-info{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 50px;
+  opacity: 0;
 }

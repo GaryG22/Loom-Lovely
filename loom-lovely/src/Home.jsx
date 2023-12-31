@@ -23,7 +23,7 @@ function Home(){
             </div>
             <h1 className = "home-title">Today is a Beautiful Day!</h1>
             <p className = "home-p">this will be dummy text for the description and grabber of the bag. shoppers will have a general undertsanding of what is being sold.</p>
-            <img className = "bagImg" src = "https://i.postimg.cc/ncL2FbFY/IMG-9671-Photo-Room-1.png"/>
+            <img className = "bagImg" src = "https://i.postimg.cc/gJDvRjsG/IMG-9674-Photo-Room-Photo-Room.png"/>
         </div>
         
     )

@@ -14,7 +14,7 @@ function Navbar(){
                 <span className="line line3"></span>
               </div>
           <div className="logo">
-              <h1>Cloud Pouch</h1>
+              <h1>lá álainn</h1>
               <div href = "#" className = "cart-container">
                 <img className = "cart-icon" src = "https://i.postimg.cc/MHjFFHBC/bag-Photo-Room.png" />
                 <h5 className = "cart-num">0</h5>
