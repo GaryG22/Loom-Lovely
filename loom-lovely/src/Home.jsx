@@ -1,5 +1,4 @@
 import { useState } from "react"
-import BagList from "./BagList"
 import List from "./List"
 
 function Home(){

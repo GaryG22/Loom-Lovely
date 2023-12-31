@@ -1,16 +1,20 @@
 import { useState } from "react"
+import ViewProduct from "./Shop"
+import { Link } from "react-router-dom"
+import ProductsList from "./ProductsList"
+
 
 function Products(){
-
     return(
-
         <div className = "section1">
             <img className = "clouds" src = "https://i.postimg.cc/Y0BXyncm/cloudssssss-Photo-Room.png"/>
             <h1 className = "products-title">Shop Our Handmade Bags</h1>
             <div className = "product1">
-            <img className = "img1" src = "https://i.postimg.cc/g0Lhjn9w/IMG-9671-Photo-Room.png"/>
+                        <img className = "img1" src = "https://i.postimg.cc/g0Lhjn9w/IMG-9671-Photo-Room.png"/>
                 <div className="bag-info">
-                    <img className = "img2" src = "https://i.postimg.cc/HnDt0FDt/IMG-9674-Photo-Room.png" />
+                        <Link to = "Product">
+                            <img className = "img2" src = "https://i.postimg.cc/HnDt0FDt/IMG-9674-Photo-Room.png" />
+                        </Link>
                     <h1 className = "bag-title">Chunky Cloud Bag</h1>
                     <p className = "bag-description">This dummy text for the bag description which goes under the title.</p>
                     <h4 className = "reviews">(55)</h4>
@@ -44,6 +48,7 @@ function Products(){
                 </div>
             </div>
         </div>
+        
     )
 }
 

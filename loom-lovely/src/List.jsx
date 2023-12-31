@@ -1,9 +1,10 @@
 import { React, useState } from 'react'
-import BagList from "./BagList"
+import BagList from "./ProductsList"
+import ProductsList from './ProductsList';
 
 function List(props) {
     //create a new array by filtering the original array
-    const filteredData = BagList.filter((el) => {
+    const filteredData = ProductsList.filter((el) => {
         //if no input the return the original
         if (props.input === "") {
             return "";
