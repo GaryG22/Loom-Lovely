@@ -20,7 +20,6 @@ function Shop (){
    
 
 }
-console.log(item)
 
 
 export default Shop
